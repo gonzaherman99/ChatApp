@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Nunito&display=swap');
+body {
+	background-image: url("images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%
+}
+h1.title {
+	margin-top: 10%;
+	font-family: 'Lato';
+}
+h2.sub-title {
+	margin-top: 6%;
+	font-family: 'Nunito', sans-serif;
+}
+h1, h2 {
+	text-align: center;
+}
+div.fields {
+	margin: 3% auto;
+	display: block;
+	text-align: center;
+}
+input[type="text"] {
+	border-radius: 5px;
+	border-color: transparent;
+	font-family: 'Nunito', sans-serif;
+}
+input[type="text"]:focus {
+	outline: none;
+	box-shadow: none;
+}
+button.submit {
+	border-radius: 15px;
+	margin-bottom: 3px !important;
+	border-color: transparent;
+	font-family: 'Nunito', sans-serif;
+}
+button.submit:focus {
+	outline: none;
+	box-shadow: none;
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+body {
+	width: 100%;
+	height: 100%;
+}
+div.top-bar {
+	height: 7% !important;
+	background-color: #F26671;
+	position: fixed;
+	z-index: 1;
+	padding: 0;
+	font-family: 'Work Sans', sans-serif;
+}
+h1#me {
+	text-align: left;
+	display: inline;
+	margin-left: 4%;
+}
+h1#name {
+	margin-left: 80% !important;
+	display: inline;
+	text-transform: uppercase;
+}
+div.chat {
+	height: 70% !important;
+}
+div.message-bar {
+	bottom: 0;
+	margin-top: 45% !important;
+	position: fixed;
+	text-align: center;
+	height: 10%;
+	padding-top: 1%;
+	background-color: #F26671;
+}
+ul {
+	list-style-type: none;
+}
+ul li {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	background-color: #5ecee5;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	width: 20%;
+	margin-top: 70px;
+	margin-left: 70%;
+}
+ul li.mine {
+	margin-left: 5%;
+}
+div.message-bar input[type="text"] {
+	width: 350px;
+	border: none;
+	font-size: 1.4rem;
+	border-radius: 12px;
+	text-align: center;
+}
+button {
+	border: none;
+	font-size: 1.3rem !important;
+	margin-left: 20px !important;
+	border-radius: 10px !important;
+	background-color: white;
+	font-family: 'Work Sans', sans-serif !important;
+}

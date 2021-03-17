@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+body {
+	background-image: url("images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%
+}
+h1.title {
+	text-align: center;
+	margin-top: 5%;
+	font-family: 'Work Sans', sans-serif;
+}
+h1.slogan1 {
+	font-family: 'Work Sans', sans-serif;
+	color: #071D5F;
+	text-align: center;
+	margin-top: 30%; 
+}
+h1.slogan2 {
+	color: #071D5F;
+	text-align: center;
+	margin-top: 15%; 
+	font-family: 'Work Sans', sans-serif;
+}
+button.notification {
+	width: 400px;;
+	padding: 15px;
+	display: block;
+	margin: 0 auto;
+	margin: 80.5% 0% 0% 60%;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #AAF25C;
+	font-family: 'Work Sans', sans-serif;
+}
+button.box {
+	border: none;
+	width: 200px;
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #FFE567;
+	font-family: 'Work Sans', sans-serif;
+}
+button.box img.left {
+	height: 20%;
+	border-radius: 100%;
+	position: absolute;
+	margin-top: -5.5%;
+	margin-left: -28%;
+}
+button.box img.right {
+	height: 20%;
+	border-radius: 100%;
+	position: absolute;
+	margin-top: -14%;
+	margin-left: 10%;
+}
+div.connected {
+	height: 12px;
+	width: 12px;
+	border-radius: 100%;
+	background-color: #00FF00;
+	position: absolute;
+	margin-top: -6px;
+}
