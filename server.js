@@ -186,7 +186,19 @@ app.route('/delete')
 		 console.log(myport);
 
 		 for (var i = 0; i <= storeData.selectedObject.length; i++) {
-		 	console.log(Object.keys(storeData.selectedObject[i][0]));
+		 	var getO = storeData.selectedObject[i];
+		 	if (getO === undefined) {
+		 		console.log("We are chekcing an undefined");
+		 	} else {
+		 		console.log(getO[1]);
+		 	}
+		 	getO = [...getO];
+		 	console.log(`This is the one we are checking, ${JSON.stringify(getO[0])}`);
+		 	let key = Object.keys(getO[0]);
+		 	if (key[0] === myport) {
+		 			delete getO.chat;
+		 			console.log(getO.chat);
+		 	}
 		 }
 	})
 
